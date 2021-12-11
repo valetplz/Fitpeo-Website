@@ -1,0 +1,86 @@
+.blgVwPrt h1 {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 76px;
+  color: #31456a;
+}
+
+.blgVwPrt .blgBgWrpr .lftWrpr {
+  text-align: right;
+  padding-right: 35px;
+  max-width: 550px;
+  width: 100%;
+}
+
+.blgVwPrt .blgBgWrpr .lftWrpr p {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 29px;
+  color: #7e9dbb;
+}
+
+.blgVwPrt .blgBgWrpr h2 {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 43px;
+  text-align: right;
+  color: var(--primColor);
+}
+
+.blgVwPrt .blgBgWrpr h2 {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 43px;
+  text-align: right;
+  color: var(--primColor);
+}
+
+.blgVwPrt .blgBgWrpr .btmInfoBtns {
+  margin-top: 55px;
+}
+
+.blgVwPrt .blgBgWrpr .btmInfoBtns .viewInfo img {
+  width: 24px;
+  height: 24px;
+}
+
+.blgVwPrt .blgBgWrpr .btmInfoBtns .viewInfo p {
+  color: var(--primColor);
+}
+
+.blgVwPrt .blgImgWrpr img {
+  width: 100%;
+  max-width: 650px;
+  max-height: 379px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.blgVwPrt .blgCardsWrpr {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 30px;
+}
+
+@media (max-width: 700px) {
+  .blgBgWrpr {
+    flex-wrap: wrap-reverse;
+  }
+
+  .blgVwPrt h1 {
+    text-align: center !important;
+  }
+
+  .blgVwPrt .blgBgWrpr .lftWrpr {
+    padding-right: 0;
+    padding-top: 20px;
+  }
+}

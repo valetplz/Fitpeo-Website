@@ -1,0 +1,110 @@
+.custmInput {
+  text-align: left;
+}
+
+.custmInput input {
+  width: 100%;
+  background: #b0c2d7;
+  box-shadow: 1px 1px 2px rgba(194, 213, 237, 0.3),
+    -1px -1px 2px rgba(158, 175, 194, 0.5),
+    inset -5px 5px 10px rgba(158, 175, 194, 0.2),
+    inset 5px -5px 10px rgba(158, 175, 194, 0.2),
+    inset -5px -5px 10px rgba(194, 213, 237, 0.9),
+    inset 5px 5px 13px rgba(158, 175, 194, 0.9);
+  border-radius: 30px;
+  border: none;
+  height: 60px;
+  padding: 10px 20px;
+}
+
+input,
+textarea {
+  color: var(--primColor);
+}
+
+input.prefixIcon,
+textarea.prefixIcon {
+  padding-left: 85px;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+.custmInput input::placeholder,
+.custmInput textarea::placeholder {
+  font-size: 18px;
+  color: rgba(49, 69, 106, 0.6);
+}
+
+.custmInput label {
+  font-weight: normal;
+  font-size: 18px;
+  color: var(--primColor);
+  margin-bottom: 10px;
+}
+
+.custmInput .inptLyr {
+  position: relative;
+}
+
+.custmInput .icnWrpr {
+  position: absolute;
+  left: 33px;
+  top: 16px;
+}
+
+.custmInput textarea {
+  width: 100%;
+  background: #b0c2d7;
+  box-shadow: 1px 1px 2px rgba(194, 213, 237, 0.3),
+    -1px -1px 2px rgba(158, 175, 194, 0.5),
+    inset -5px 5px 10px rgba(158, 175, 194, 0.2),
+    inset 5px -5px 10px rgba(158, 175, 194, 0.2),
+    inset -5px -5px 10px rgba(194, 213, 237, 0.9),
+    inset 5px 5px 13px rgba(158, 175, 194, 0.9);
+  border-radius: 30px;
+  border: none;
+  height: 220px;
+  padding: 23px 28px;
+}
+
+.custmInput .icnWrpr img {
+  width: 30px;
+  height: 30px;
+}
+
+.slctCntnr,
+.slctCntnr .slctIptWrpr {
+  width: 100%;
+  text-align: left;
+}
+
+.slctCntnr label {
+  font-size: 16px;
+  color: var(--primColor);
+}
+
+.slctCntnr .slctIptWrpr select {
+  -webkit-appearance: none;
+  width: 100%;
+  border: 1px solid var(--primColor);
+  background-color: white;
+  height: 40px;
+  border-radius: 8px;
+  padding: 0 10px;
+  color: var(--primColor);
+}
+
+.slctCntnr .slctIptWrpr {
+  position: relative;
+}
+
+.slctCntnr .slctIptWrpr::after {
+  position: absolute;
+  font-family: "Material Icons";
+  content: "expand_more";
+  right: 10px;
+  top: 8px;
+}

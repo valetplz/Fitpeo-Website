@@ -1,0 +1,132 @@
+.rsrcPgWrpr h4 {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 96px;
+  color: #31456a;
+  text-align: left;
+  padding: 145px 0;
+}
+
+.rsrcPgWrpr .rsrcGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.rsrcPgWrpr .rtLyt {
+  min-width: 280px;
+  border-left: 1px solid rgba(49, 69, 106, 0.6);
+  margin-left: 25px;
+  padding-left: 25px;
+}
+
+.rsrcPgWrpr .fltrCtr {
+  width: 100%;
+}
+
+.rsrcPgWrpr .fltrCtr h6 {
+  background: white;
+  padding: 20px;
+  color: var(--primColor);
+  font-size: 20px;
+  border-radius: 15px;
+}
+
+.rsrcPgWrpr .fltrCtr ul {
+  background: white;
+  color: var(--primColor);
+  font-size: 20px;
+  border-radius: 15px;
+  padding-left: 0;
+  list-style: none;
+  width: 100%;
+}
+
+.rsrcPgWrpr .fltrCtr ul li {
+  padding: 15px 0;
+  font-size: 16px;
+  border-bottom: 1px solid rgba(46, 110, 146, 0.15);
+}
+
+.rsrcPgWrpr .rtLyt .tgsCntnr {
+  margin-top: 45px;
+}
+
+.rsrcPgWrpr .rtLyt .tgsCntnr h5 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #31456a;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.rsrcPgWrpr .rtLyt .tgsCntnr ul li {
+  list-style: none;
+  position: relative;
+  color: var(--primColor);
+  text-align: left;
+  margin: 15px 0;
+}
+
+.rsrcPgWrpr .rtLyt .tgsCntnr ul li::before {
+  font-family: "Material Icons";
+  content: "east";
+  font-size: 16px;
+  position: absolute;
+  left: -34px;
+  top: -2px;
+}
+
+.rsrcPgWrpr .rtLyt .tgsCntnr ul li h6 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.rsrcPgWrpr .inrHdr {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 43px;
+  color: #31456a;
+  margin: 60px 0 25px 0;
+  text-align: left;
+}
+
+.rsrcPgWrpr .prsRlsContainer .rtTxtCtr h6 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 43px;
+  color: #31456a;
+}
+
+.rsrcPgWrpr .prsRlsContainer .rtTxtCtr p {
+  color: var(--primColor);
+}
+
+@media (max-width: 700px) {
+  .rsrcPgWrpr.px-5 {
+    padding: 15px !important;
+  }
+
+  .rsrcPgWrpr h4 {
+    font-size: 64px;
+    padding: 40px 0;
+  }
+
+  .rsrcPgWrpr .rsrDtlLt {
+    flex-wrap: wrap;
+  }
+
+  .rsrcPgWrpr .rtLyt {
+    margin-left: 0;
+    border-left: 0;
+    border-top: 1px solid rgba(49, 69, 106, 0.6);
+    width: 100%;
+    padding-top: 20px;
+  }
+}

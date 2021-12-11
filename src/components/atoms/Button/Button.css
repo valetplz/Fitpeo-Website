@@ -1,0 +1,32 @@
+.primButton {
+  /* font-family: 'SFProDisplay-Regular'; */
+  height: 56px;
+  background: linear-gradient(0deg, #e3edf7, #e3edf7);
+  box-shadow: -4px -2px 16px #ffffff, 4px 4px 22px rgba(18, 46, 101, 0.16),
+    4px 2px 16px rgba(136, 165, 191, 0.48),
+    inset -2px -2px 14px rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  color: var(--primColor);
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.primButton:hover {
+  background: #e3edf4;
+  box-shadow: 1px 1px 2px rgba(250, 255, 255, 0.3),
+    -1px -1px 2px rgba(204, 213, 220, 0.5),
+    inset -5px 5px 10px rgba(204, 213, 220, 0.2),
+    inset 5px -5px 10px rgba(204, 213, 220, 0.2),
+    inset -5px -5px 10px rgba(250, 255, 255, 0.9),
+    inset 5px 5px 13px rgba(204, 213, 220, 0.9);
+  border-radius: 16px;
+}
+
+.secButton {
+  height: 56px;
+  background-color: var(--primColor);
+  border-radius: 100px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}

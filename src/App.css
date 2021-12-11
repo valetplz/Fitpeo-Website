@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+  /* overflow-x: hidden; */
+  font-family: "SFProDisplay-Regular";
+}
+
+:root {
+  --primColor: #31456a;
+}

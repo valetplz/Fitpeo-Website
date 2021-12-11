@@ -1,0 +1,136 @@
+.sideNavWrapper {
+  width: 330px;
+  min-width: 330px;
+  height: 100vh;
+  padding: 40px;
+  padding-right: 0;
+  border-radius: 0 40px 40px 0;
+  background: linear-gradient(
+      0deg,
+      rgba(204, 218, 235, 0.19),
+      rgba(204, 218, 235, 0.19)
+    ),
+    linear-gradient(
+      210.55deg,
+      rgba(235, 242, 249, 0.7) 19.14%,
+      rgba(198, 215, 235, 0.7) 154.68%
+    );
+  box-shadow: -16px -16px 40px rgba(255, 255, 255, 0.2),
+    16px 4px 64px rgba(18, 61, 101, 0.08),
+    inset -8px -6px 80px rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(100px);
+  /* transform: matrix(0, -1, -1, 0, 0, 0); */
+  position: sticky;
+  top: 0;
+}
+
+.sideNavWrapper button {
+  border: none;
+}
+
+.sideNavWrapper .lgoTxt {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  color: var(--primColor);
+  font-family: "SFProDisplay-Bold";
+}
+
+.sideNavWrapper .nvLnksContainer {
+  padding-left: 20px;
+  padding-top: 30px;
+  overflow-y: auto;
+  max-height: 81vh;
+  padding-right: 40px;
+  padding-bottom: 20px;
+}
+
+.sideNavWrapper .nvLnksContainer li {
+  list-style: none;
+}
+
+.sideNavWrapper .nvLnksContainer li a,
+.sideNavWrapper .nvLnksContainer li button {
+  min-height: 56px;
+  width: 100%;
+  background: transparent;
+  border-radius: 16px;
+  color: var(--primColor);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 80px;
+  color: var(--primColor);
+  text-decoration: none;
+}
+
+.sideNavWrapper .nvLnksContainer li a.active,
+.sideNavWrapper .nvLnksContainer li a:hover,
+.sideNavWrapper .nvLnksContainer li button.active,
+.sideNavWrapper .nvLnksContainer li button:hover {
+  list-style: none;
+  min-height: 56px;
+  width: 100%;
+  background: linear-gradient(0deg, #e3edf7, #e3edf7);
+  box-shadow: -4px -2px 16px #ffffff, 4px 4px 22px rgba(18, 46, 101, 0.16),
+    4px 2px 16px rgba(136, 165, 191, 0.48),
+    inset -2px -2px 14px rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  color: var(--primColor);
+  font-weight: 700;
+}
+
+.sideNavWrapper .nvLnksContainer li a.nvExpnded,
+.sideNavWrapper .nvLnksContainer li button.nvExpnded {
+  background: #e3edf4;
+  box-shadow: 1px 1px 2px rgba(250, 255, 255, 0.3),
+    -1px -1px 2px rgba(204, 213, 220, 0.5),
+    inset -5px 5px 10px rgba(204, 213, 220, 0.2),
+    inset 5px -5px 10px rgba(204, 213, 220, 0.2),
+    inset -5px -5px 10px rgba(250, 255, 255, 0.9),
+    inset 5px 5px 13px rgba(204, 213, 220, 0.9);
+  border-radius: 16px;
+}
+
+.sideNavWrapper .nvLnksContainer li .inrNvLinks {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: #e3edf4;
+  box-shadow: 1px 1px 2px rgba(250, 255, 255, 0.3),
+    -1px -1px 2px rgba(204, 213, 220, 0.5),
+    inset -5px 5px 10px rgba(204, 213, 220, 0.2),
+    inset 5px -5px 10px rgba(204, 213, 220, 0.2),
+    inset -5px -5px 10px rgba(250, 255, 255, 0.9),
+    inset 5px 5px 13px rgba(204, 213, 220, 0.9);
+  border-radius: 16px;
+}
+.sideNavWrapper .nvLnksContainer li .inrNvLinks li a {
+  padding-left: 55px;
+  position: relative;
+  text-align: left;
+  padding-right: 30px;
+}
+.sideNavWrapper .nvLnksContainer li .inrNvLinks li a:hover,
+.sideNavWrapper .nvLnksContainer li .inrNvLinks li a.active {
+  background: transparent;
+  box-shadow: none;
+}
+
+.sideNavWrapper .nvLnksContainer li .inrNvLinks li a.active::after,
+.sideNavWrapper .nvLnksContainer li .inrNvLinks li a:hover::after {
+  content: "→";
+  position: absolute;
+  top: 29%;
+  right: 20px;
+}
+
+@media (max-width: 700px) {
+  .sideNavWrapper {
+    width: 100vw;
+    border-radius: 0 !important;
+  }
+
+  .MuiDrawer-root.MuiDrawer-modal .MuiDrawer-paper {
+    border-radius: 0 !important;
+  }
+}

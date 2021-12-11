@@ -1,0 +1,510 @@
+.hmPgWrpr .contentWrapper {
+  background: radial-gradient(
+      85.37% 104.29% at 84.13% 96.35%,
+      #c3d1e4 0%,
+      #dde7f3 78.9%,
+      #d4e0ed 100%
+    ),
+    #ffffff;
+  padding-left: 84px;
+}
+
+.bckTpBtn {
+  background: linear-gradient(0deg, #e3edf7, #e3edf7);
+  box-shadow: -4px -2px 16px #ffffff7a, 4px 4px 22px rgb(18 46 101 / 16%),
+    4px 2px 16px rgb(136 165 191 / 48%),
+    inset -2px -2px 14px rgb(255 255 255 / 20%);
+  border-radius: 16px;
+  z-index: 99;
+}
+
+.vdoWrprBack {
+  background: radial-gradient(
+    58.14% 15.77% at 78.87% 1.46%,
+    #ffffff 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  padding: 60px 0;
+  padding-right: 84px;
+}
+
+.vdoWrprBack h2 {
+  font-size: 38px;
+  font-weight: 700;
+  color: var(--primColor);
+  margin-bottom: 60px;
+  font-family: "SFProDisplay-Bold";
+}
+
+.vdoWrprBack .plIcnWrp,
+.medivdoWrpr .medivdoWrpr .plIcnWrp {
+  background: rgba(195, 209, 228, 0.33);
+  border: 1px solid rgba(49, 69, 106, 0.49);
+  backdrop-filter: blur(20px);
+  border-radius: 100px;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 6px;
+}
+
+.vdoWrprBack iframe,
+.vdoWrprBack .react-player__preview {
+  border-radius: 40px;
+}
+
+.vdoWrprBack .vdoDscrptn {
+  text-align: left;
+  margin: 40px 0;
+  color: var(--primColor);
+  font-size: 18px;
+  line-height: 31px;
+}
+
+.vdoWrprBack .mblPhWrpr .lftContainer p {
+  font-size: 18px;
+  text-align: left;
+  color: var(--primColor);
+  line-height: 36px;
+  /* text-align: justify; */
+  padding-right: 60px;
+}
+
+.vdoWrprBack .hmCrslWrpr.tstMlCrsl .slick-dots {
+  bottom: -49px;
+  text-align: center;
+  padding-left: 0;
+}
+
+.vdoWrprBack .mblPhWrpr .rtContaienr {
+  width: 100%;
+  max-width: 479px;
+  background: linear-gradient(135deg, #cddbef 0%, #b9c7d9 100%);
+  box-shadow: -5px 5px 10px rgba(176, 188, 205, 0.2),
+    5px -5px 10px rgba(176, 188, 205, 0.2),
+    -5px -5px 10px rgba(215, 230, 251, 0.9),
+    5px 5px 13px rgba(176, 188, 205, 0.9),
+    inset 1px 1px 2px rgba(215, 230, 251, 0.3),
+    inset -1px -1px 2px rgba(176, 188, 205, 0.5);
+  border-radius: 70px;
+  padding: 30px 20px 50px 20px;
+}
+
+.pathWayContainer .pthWyDtlCntnr {
+  position: relative;
+}
+
+.pathWayContainer .pthWyDtlCntnr .pWCBx {
+  color: var(--primColor);
+  text-align: left;
+  max-width: 290px;
+  margin-bottom: 30px;
+}
+
+.pathWayContainer .pthWyDtlCntnr .pWCBx h3 {
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  font-family: "SFProDisplay-Bold";
+}
+
+.pathWayContainer .pthWyDtlCntnr .pWCBx p {
+  font-size: 19px;
+}
+
+.pathWayContainer .pthWyDtlCntnr .pWCBx.fstBx {
+  margin-left: -5%;
+  margin-top: 48px;
+}
+
+.pathWayContainer .pthWyDtlCntnr .pWCBx.sdBx {
+  margin-left: 11%;
+  margin-top: 34px;
+}
+
+.pathWayContainer .pthWyDtlCntnr .pWCBx.thrdBx {
+  margin-left: 24%;
+  margin-top: 49px;
+  margin-bottom: 20px;
+}
+
+.pathWayContainer .pthWyDtlCntnr .pWCBx.frtBx {
+  margin-left: 42%;
+  margin-top: 34px;
+}
+
+.pathWayContainer .pthWyDtlCntnr .pWCBx.fthBx {
+  margin-left: 73%;
+  margin-top: 33px;
+}
+
+.pathWayContainer .pthWyDtlCntnr .crsLn {
+  position: absolute;
+  top: -143px;
+  left: -84px;
+}
+
+.pathWayContainer .pthWyDtlCntnr .vctrImg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 36%;
+}
+
+.clntTstmnl {
+  margin-top: 90px;
+}
+
+.clntTstmnl h2 {
+  margin-bottom: 45px;
+}
+
+.cntctWrpr h2 {
+  margin-top: 120px;
+  /* margin-bottom: 45px; */
+  margin-bottom: 20px;
+  font-family: "SFProDisplay-Bold";
+}
+
+.cntctWrpr p {
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 33px;
+  text-align: left;
+  color: var(--primColor);
+  margin-bottom: 65px;
+}
+
+.cntctWrpr .custmInput {
+  margin-top: 35px;
+}
+
+.cntctWrpr .primButton {
+  background: linear-gradient(135deg, #a7b8cc 0%, #b9cce2 100%);
+  box-shadow: -5px 5px 10px rgba(158, 175, 194, 0.2),
+    5px -5px 10px rgba(158, 175, 194, 0.2),
+    -5px -5px 10px rgba(194, 213, 237, 0.9),
+    5px 5px 13px rgba(158, 175, 194, 0.9);
+  border-radius: 30px;
+  width: 260px;
+  height: 70px;
+  margin-top: 30px;
+  font-size: 22px;
+}
+
+.cntctWrpr .primButton:hover {
+  background: #b0c2d7;
+  box-shadow: 1px 1px 2px rgba(194, 213, 237, 0.3),
+    -1px -1px 2px rgba(158, 175, 194, 0.5),
+    inset -5px 5px 10px rgba(158, 175, 194, 0.2),
+    inset 5px -5px 10px rgba(158, 175, 194, 0.2),
+    inset -5px -5px 10px rgba(194, 213, 237, 0.9),
+    inset 5px 5px 13px rgba(158, 175, 194, 0.9);
+}
+
+.cntctWrpr .cntctPgImg {
+  width: 100%;
+  height: auto;
+  padding: 61px;
+}
+
+.addCntnr {
+  margin-top: 105px;
+}
+
+.addCntnr .phoneImgWrpr {
+  width: 100%;
+}
+
+.addCntnr .phoneImage {
+  max-width: 1000px;
+  width: 100%;
+  height: auto;
+  transform: translateX(-145px);
+}
+
+.addCntnr h3 {
+  font-weight: bold;
+  font-size: 43px;
+  color: var(--primColor);
+  text-align: left;
+  font-family: "SFProDisplay-Bold";
+}
+
+.addCntnr p {
+  font-weight: normal;
+  font-size: 26px;
+  color: var(--primColor);
+  text-align: left;
+  max-width: 80%;
+  margin-top: 25px;
+}
+
+.addCntnr .dwnldBtn img {
+  /* width: 28%; */
+  /* min-width: 150px; */
+  /* max-width: 450px; */
+  height: 70px;
+  cursor: pointer;
+}
+
+/*providers carousel*/
+.prvdrsWrapper .enrlPrvdrsCntnr .enrldPrvdrsCrsl {
+  margin-top: 60px;
+}
+
+.prvdrsWrapper .enrlPrvdrsCntnr h2.cstmHdr {
+  margin-top: 140px;
+  font-family: "SFProDisplay-Bold";
+}
+
+.prvdrsWrapper .hwDswrkPrvdr {
+  margin-top: 120px;
+}
+
+.prvdrsWrapper .hwDswrkPrvdr p {
+  font-weight: normal;
+  font-size: 18px;
+  color: var(--primColor);
+  text-align: left;
+  line-height: 45px;
+}
+
+.prvdrsWrapper .workCardsWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 85px;
+}
+
+.prvdrsWrapper .workCardsWrapper .workCard {
+  max-width: 524px;
+  width: 100%;
+  background: linear-gradient(
+    148.79deg,
+    #cddbef 4.87%,
+    rgba(255, 255, 255, 0.14) 100%
+  );
+  box-shadow: -5px 5px 10px rgba(176, 188, 205, 0.2),
+    5px -5px 10px rgba(176, 188, 205, 0.2),
+    -5px -5px 10px rgba(215, 230, 251, 0.9),
+    5px 5px 13px rgba(176, 188, 205, 0.9),
+    inset 1px 1px 2px rgba(215, 230, 251, 0.3),
+    inset -1px -1px 2px rgba(176, 188, 205, 0.5);
+  border-radius: 10px;
+}
+
+.prvdrsWrapper .workCardsWrapper .workCard .ttleContainer {
+  height: 129.67px;
+  /* background: #b9cce2; */
+  /* box-shadow: 1px 1px 2px rgba(204, 224, 249, 0.3),
+    -1px -1px 2px rgba(167, 184, 203, 0.5),
+    inset -5px 5px 10px rgba(167, 184, 203, 0.2),
+    inset 5px -5px 10px rgba(167, 184, 203, 0.2),
+    inset -5px -5px 10px rgba(204, 224, 249, 0.9),
+    inset 5px 5px 13px rgba(167, 184, 203, 0.9);
+  border-radius: 10px; */
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 28px;
+  padding-left: 30px;
+}
+
+.prvdrsWrapper .workCardsWrapper .workCard .ttleContainer h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  color: var(--primColor);
+  z-index: 9;
+  font-family: "SFProDisplay-Semibold";
+}
+
+@media (max-width: 1440px) {
+  .prvdrsWrapper .workCardsWrapper .workCard .ttleContainer h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--primColor);
+    z-index: 9;
+  }
+  .vdoWrprBack .ptsm.pt-5,
+  .vdoWrprBack .ptsm.py-5 {
+    padding-top: 6em !important;
+  }
+}
+
+.prvdrsWrapper .workCardsWrapper .workCard .ttleContainer img {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.prvdrsWrapper .workCardsWrapper .workCard .crdcntns {
+  padding: 30px;
+}
+
+.prvdrsWrapper .workCardsWrapper .workCard .crdcntns p {
+  margin: 0;
+}
+.prvdrsWrapper .workCardsWrapper .workCard .crdcntns p:not(:first-child) {
+  margin-top: 46px;
+}
+
+.pathWayContainer .pthWyDtlCntnr {
+  z-index: 9;
+}
+
+@media (max-width: 1467px) {
+  .bstPrvdrsCrsl .crslCard {
+    max-width: 885px;
+  }
+
+  .pathWayContainer .pthWyDtlCntnr .crsLn {
+    z-index: -1;
+  }
+}
+
+@media (max-width: 1240px) {
+  .carouselWrapper {
+    height: 57vh;
+  }
+
+  .mblPhWrpr .flxCntnr {
+    flex-wrap: wrap;
+  }
+
+  .vdoPlrWrpr > div {
+    height: max-content !important;
+  }
+
+  .vdoWrprBack .mblPhWrpr .lftContainer p {
+    padding-right: 0;
+  }
+
+  .vdoWrprBack .mblPhWrpr .rtContaienr {
+    margin: 40px auto;
+  }
+
+  .hmPgWrpr .contentWrapper {
+    padding-left: 30px;
+  }
+  .vdoWrprBack {
+    padding-right: 30px;
+  }
+
+  .pathWayContainer .pthWyDtlCntnr .pWCBx.fstBx {
+    margin-left: 1%;
+    margin-top: 48px;
+  }
+
+  .pathWayContainer .pthWyDtlCntnr .crsLn {
+    width: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  .hmPgWrpr .contentWrapper {
+    padding-left: 30px;
+  }
+  .vdoWrprBack {
+    padding-right: 30px;
+  }
+
+  .prvdrsWrapper .workCardsWrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .prvdrsWrapper .workCardsWrapper .workCard .ttleContainer {
+    height: unset;
+  }
+
+  .prvdrsWrapper .workCardsWrapper .workCard .ttleContainer img {
+    height: 93px;
+    object-fit: cover;
+  }
+
+  .prvdrsWrapper .workCardsWrapper .workCard .ttleContainer {
+    height: 100px;
+    padding-top: 20px;
+    padding-left: 0;
+    justify-content: center;
+  }
+
+  .prvdrsWrapper .workCardsWrapper .workCard .ttleContainer h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .cntctWrpr p {
+    margin-bottom: 40px;
+  }
+
+  .cntctWrpr .d-flex {
+    flex-wrap: wrap;
+  }
+  .cntctWrpr .d-flex .lftWrpr img {
+    width: 67%;
+    margin-bottom: 20px;
+  }
+
+  .vdoPlrWrpr > div {
+    height: 167px !important;
+  }
+
+  .mblPhWrpr .flxCntnr {
+    flex-wrap: wrap;
+  }
+
+  .vdoWrprBack .mblPhWrpr .lftContainer p {
+    padding-right: 0px;
+  }
+
+  .pathWayContainer .pthWyDtlCntnr .crsLn {
+    display: none;
+  }
+
+  .pathWayContainer .pthWyDtlCntnr .vctrImg {
+    position: relative;
+    margin: 40px 0;
+    width: 70%;
+  }
+
+  .pathWayContainer .pthWyDtlCntnr .pWCBx {
+    margin: unset !important;
+    margin-bottom: 40px !important;
+  }
+
+  .addCntnr .phoneImage {
+    width: 100%;
+    transform: unset;
+  }
+
+  .addCntnr .dwnldBtn {
+    flex-wrap: wrap;
+  }
+
+  .addCntnr p {
+    max-width: 100%;
+  }
+
+  .addCntnr .dwnldBtn img {
+    width: 65%;
+    margin: 0 !important;
+    margin-bottom: 10px !important;
+  }
+
+  .cntctWrpr .cntctPgImg {
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+
+  .vdoWrprBack .ptsm.pt-5,
+  .vdoWrprBack .ptsm.py-5 {
+    padding-top: 6em !important;
+  }
+}

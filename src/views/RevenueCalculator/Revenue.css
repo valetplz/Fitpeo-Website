@@ -1,0 +1,338 @@
+.rvnueClcWrpr {
+  color: var(--primColor);
+  padding-top: 95px;
+}
+
+.rvnueClcWrpr .mnHdr {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 163.78%;
+  color: #31456a;
+  text-align: left;
+}
+
+.rvnueClcWrpr .mnTgLn {
+  text-align: left;
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  color: #31456a;
+  margin-top: 20px;
+}
+
+.rvnueClcWrpr .rvnueCalc {
+  margin-top: 85px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.rvnueClcWrpr .rvnueCalc.onScrl {
+  flex-wrap: wrap-reverse;
+}
+
+.rvnueClcWrpr .rvnueCalc.onScrl .rtDtlsContainer {
+  display: flex;
+  align-items: flex-start;
+  width: 75%;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+}
+
+.rvnueClcWrpr .rvnueCalc.onScrl .rtDtlsContainer .ttlRvneWrpr,
+.rvnueClcWrpr .rvnueCalc.onScrl .rtDtlsContainer .rvnDtLst {
+  width: 50%;
+}
+
+.rvnueClcWrpr .rvnueCalc .lftClWrpr {
+  text-align: left;
+  width: 100%;
+}
+
+.rvnueClcWrpr .rvnueCalc .lftClWrpr h4 {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  color: #31456a;
+}
+
+.rvnueClcWrpr .rvnueCalc .lftClWrpr p {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #31456a;
+  margin-top: 25px;
+}
+
+.rvnueClcWrpr .rvnueCalc .lftClWrpr .cptCodes {
+  margin-top: 45px;
+}
+
+.rvnueClcWrpr .rvnueCalc .lftClWrpr .cptCodes label {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.rvnueClcWrpr .rvnueCalc .lftClWrpr .cptCodes .slctTags .tagCard {
+  background-color: var(--primColor);
+  color: white;
+  border-radius: 100px;
+  width: max-content;
+  padding: 5px 10px;
+}
+
+.rvnueClcWrpr .rvnueCalc .rtDtlsContainer {
+  background: #e3edf7;
+  box-shadow: -5px 5px 10px rgba(204, 213, 222, 0.2),
+    5px -5px 10px rgba(204, 213, 222, 0.2),
+    -5px -5px 10px rgba(250, 255, 255, 0.9),
+    5px 5px 13px rgba(204, 213, 222, 0.9);
+  border-radius: 20px;
+  padding: 20px 40px;
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.rvnueClcWrpr .rvnueCalc .rtDtlsContainer .ttlRvneWrpr label {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 163.78%;
+  color: #31456a;
+}
+
+.rvnueClcWrpr .rvnueCalc .rtDtlsContainer .ttlRvneWrpr h2 {
+  font-family: "Quando", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  color: #31456a;
+}
+
+.rvnueClcWrpr .rvnueCalc .rtDtlsContainer .rvnDtLst .lstTg {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+
+.rvnueClcWrpr .rvnueCalc .rtDtlsContainer .rvnDtLst .lstTg label {
+  margin: 0;
+  width: 50%;
+  text-align: left;
+}
+
+.rvnueClcWrpr .rvnueCalc .rtDtlsContainer .rvnDtLst .lstTg h3 {
+  font-size: 32px;
+  font-family: "Quando", serif;
+  text-align: left;
+  width: 50%;
+}
+
+.rvnueClcWrpr .slctCPTWrpr {
+  margin-top: 75px;
+}
+
+.rvnueClcWrpr .slctCPTWrpr h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.rvnueClcWrpr .cptCodesCard h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #5469d4;
+}
+
+.rvnueClcWrpr .cptDtlsCdsWrpr {
+  margin-top: 85px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.rvnueClcWrpr .cptDtlsCdsWrpr .cptCodesCard {
+  padding: 20px 0;
+  width: 50%;
+  border-bottom: 1px solid var(--primColor);
+  margin-bottom: 30px;
+}
+
+.rvnueClcWrpr .cptCodesCard .cptPrcDtls {
+  margin-top: 10px;
+}
+
+.rvnueClcWrpr .cptCodesCard .cptPrcDtls p {
+  font-size: 20px;
+}
+
+.rvnueClcWrpr .cptCodesCard .cptPrcDtls span {
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.rvnueClcWrpr .cptCodesCard .cptPrcDtls p:last-child {
+  margin-left: 35px;
+}
+
+.rvnueClcWrpr .cptCodesCard .dscrptn {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.rvnueClcWrpr .cptCodesCard .cstmChkBox {
+  width: max-content;
+  margin-top: 45px;
+}
+
+.rvnueClcWrpr .cptDtlsCdsWrpr .cptCodesCard:nth-child(odd) {
+  padding-right: 30px;
+}
+
+.rvnueClcWrpr .cptDtlsCdsWrpr .cptCodesCard:nth-child(even) {
+  border-left: 1px solid var(--primColor);
+  padding-left: 30px;
+}
+
+.rvnueClcWrpr .rvnueCalc.onScrl {
+  z-index: 9999;
+}
+
+.rvnueClcWrpr .rvnueCalc.onScrl .rtDtlsContainer {
+  padding: 12px 40px;
+}
+
+.rvnueClcWrpr .rvnueCalc.onScrl .rtDtlsContainer .rvnDtLst .lstTg {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 6px 0;
+}
+
+.rvnueClcWrpr .rvnueCalc.onScrl .rtDtlsContainer .ttlRvneWrpr {
+  margin-bottom: 0 !important;
+}
+
+@media (max-width: 700px) {
+  .rvnueClcWrpr {
+    padding: 40px 25px !important;
+  }
+
+  .rvnueClcWrpr .mnHdr {
+    font-size: 29px;
+    line-height: 47px;
+  }
+
+  .rvnueClcWrpr .rvnueCalc.onScrl .rtDtlsContainer,
+  .rvnueClcWrpr .rvnueCalc .rtDtlsContainer {
+    position: relative;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 45px;
+  }
+
+  .rvnueClcWrpr .rvnueCalc,
+  .rvnueClcWrpr .rvnueCalc.onScrl {
+    flex-wrap: wrap;
+  }
+
+  .rvnueClcWrpr .cstmSliderIcon {
+    width: 100%;
+  }
+
+  .rvnueClcWrpr .rvnueCalc.onScrl .rtDtlsContainer .ttlRvneWrpr,
+  .rvnueClcWrpr .rvnueCalc.onScrl .rtDtlsContainer .rvnDtLst {
+    width: 100%;
+  }
+
+  .rvnueClcWrpr .rvnueCalc .rtDtlsContainer .ttlRvneWrpr h2 {
+    font-size: 36px;
+  }
+
+  .rvnueClcWrpr .rvnueCalc .rtDtlsContainer .ttlRvneWrpr label {
+    font-size: 20px;
+    line-height: 139.78%;
+  }
+
+  .rvnueClcWrpr .rvnueCalc.onScrl .rtDtlsContainer .rvnDtLst .lstTg {
+    flex-wrap: wrap;
+  }
+
+  .rvnueClcWrpr .rvnueCalc .rtDtlsContainer .rvnDtLst .lstTg h3 {
+    font-size: 24px;
+  }
+
+  .rvnueClcWrpr .rvnueCalc .rtDtlsContainer .rvnDtLst .lstTg label {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  .rvnueClcWrpr .fltrWrpr .col-3 {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+
+  .rvnueClcWrpr .cptDtlsCdsWrpr .cptCodesCard {
+    width: 100%;
+  }
+
+  .rvnueClcWrpr .cptCodesCard .cptPrcDtls {
+    flex-wrap: wrap;
+  }
+
+  .rvnueClcWrpr .cptCodesCard .cptPrcDtls p:last-child {
+    margin-left: 0;
+  }
+
+  .rvnueClcWrpr .cptDtlsCdsWrpr .cptCodesCard:nth-child(odd) {
+    padding-right: 0;
+  }
+
+  .rvnueClcWrpr .cptDtlsCdsWrpr .cptCodesCard:nth-child(even) {
+    border-left: 0;
+    padding-left: 0;
+  }
+
+  .rvnueClcWrpr .rvnueCalc.onScrl .rtDtlsContainer {
+    z-index: 0;
+  }
+
+  .rvnueClcWrpr .slctCntnr,
+  .rvnueClcWrpr .slctCntnr .slctIptWrpr {
+    margin-bottom: 15px;
+  }
+}
+
+/* 
+.rvnueClcWrpr .rvnueCalc.onScrl .lftClWrpr {
+  background: white;
+}
+
+.rvnueClcWrpr .rvnueCalc.onScrl .lftClWrpr .sldrCntnr {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rvnueClcWrpr .rvnueCalc.onScrl .lftClWrpr .sldrCntnr h4,
+.rvnueClcWrpr .rvnueCalc.onScrl .lftClWrpr .sldrCntnr p {
+  margin: 0;
+}
+
+.rvnueClcWrpr .rvnueCalc.onScrl .lftClWrpr .cptCodes {
+  margin-top: 15px;
+  display: flex;
+}
+
+.rvnueClcWrpr .rvnueCalc.onScrl .lftClWrpr .cptCodes label {
+  margin: 0;
+  margin-right: 15px;
+}
+
+.rvnueClcWrpr .rvnueCalc.onScrl .lftClWrpr .cptCodes .slctTags {
+  margin-top: 0 !important;
+} */

@@ -1,0 +1,93 @@
+/* The container */
+.cstmChkBox .container {
+  display: block;
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 13px;
+  color: var(--primColor);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+.cstmChkBox.big .container {
+  padding-left: 55px;
+  display: flex;
+  align-items: center;
+}
+
+.cstmChkBox.big .container {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* Hide the browser's default checkbox */
+.cstmChkBox .container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.cstmChkBox .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 18px;
+  width: 18px;
+  background: white;
+  border: 1.5px solid var(--primColor);
+  border-radius: 5px;
+}
+
+.cstmChkBox.big .checkmark {
+  width: 42px;
+  height: 42px;
+}
+
+/* On mouse-over, add a grey background color */
+.cstmChkBox .container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.cstmChkBox .container input:checked ~ .checkmark {
+  background-color: var(--primColor);
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.cstmChkBox .checkmark:after {
+  content: url("../../../assets/checkmark.svg");
+  position: absolute;
+  display: none;
+}
+
+.cstmChkBox.big .checkmark:after {
+  content: url("../../../assets/checkmarkbig.svg");
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.cstmChkBox .container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.cstmChkBox .container .checkmark:after {
+  left: 2px;
+  top: 0px;
+}
+
+.cstmChkBox.big .container .checkmark:after {
+  left: 5px;
+  top: 0px;
+}

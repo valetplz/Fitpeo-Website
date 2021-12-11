@@ -1,0 +1,70 @@
+.viewPort {
+  display: flex;
+  align-items: flex-start;
+  background: linear-gradient(
+    75deg,
+    #d5e0ec 11.72%,
+    #dae4ee 31.21%,
+    #fdfdfe 96.44%
+  );
+  position: relative;
+}
+
+.viewPort .viewScreen {
+  width: calc(100% - 330px);
+}
+.viewPort .viewScreen.overflowHidden {
+  overflow-x: hidden;
+}
+
+.viewPort .mblNav {
+  display: none;
+}
+
+.MuiDrawer-root.MuiDrawer-modal .MuiDrawer-paper {
+  border-radius: 0 35px 35px 0 !important;
+}
+
+.dskNav {
+  position: sticky;
+  top: 0;
+}
+
+.bckTpBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+}
+
+@media (max-width: 1240px) {
+  .viewPort .dskNav {
+    display: none;
+  }
+  .viewPort .mblNav {
+    display: block;
+  }
+  .viewPort .viewScreen {
+    width: 100vw;
+  }
+  .viewPort .mblNav.mnuIcon {
+    height: 90px;
+    padding: 0 20px;
+    background: #f7fcff;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+
+  .drwrClsIcon {
+    position: absolute;
+    top: 50px;
+    right: 30px;
+    z-index: 99;
+  }
+
+  .viewPort .viewScreen {
+    overflow-x: unset;
+  }
+}

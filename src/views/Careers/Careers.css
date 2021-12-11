@@ -1,0 +1,320 @@
+.careerVwPrt h1 {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 76px;
+  color: #31456a;
+}
+
+.careerVwPrt .blgBgWrpr .lftWrpr {
+  text-align: right;
+  padding-right: 35px;
+  max-width: 550px;
+  width: 100%;
+}
+
+.careerVwPrt .blgBgWrpr .lftWrpr p {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 29px;
+  color: var(--primColor);
+  text-align: center;
+  margin-top: 25px;
+}
+
+.careerVwPrt .blgBgWrpr h2 {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 60px;
+  text-align: center;
+  color: var(--primColor);
+}
+
+.careerVwPrt .blgImgWrpr img {
+  width: 100%;
+  max-width: 650px;
+  max-height: 379px;
+  height: 100%;
+  object-fit: contain;
+}
+
+.careerVwPrt .opnPstnr h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: var(--primColor);
+  margin-bottom: 20px;
+}
+
+.careerVwPrt .opnPstnr .pstStats {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--primColor);
+  margin-top: 45px;
+}
+
+.careerVwPrt .opnPstnr .pstStats .pstCa h2 {
+  margin: 0;
+  font-family: "Quando", serif;
+  font-size: 60px;
+  font-weight: 500;
+}
+
+.careerVwPrt .blgCardsWrpr {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 30px;
+}
+
+.careerVwPrt .fltrWrpr .slctCntnr:not(:last-child) {
+  margin-right: 15px;
+}
+
+.careerVwPrt .careerCard {
+  border-bottom: 1px solid rgba(49, 69, 106, 0.6);
+}
+
+.careerVwPrt .careerCard h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 43px;
+  color: #367cff;
+}
+
+.careerVwPrt .careerCard p {
+  color: var(--primColor);
+}
+
+.careerVwPrt .careerCard .secButton {
+  height: 44px;
+  padding: 0 30px;
+}
+
+.careerVwPrt .careerCard a {
+  color: var(--primColor);
+}
+
+.careerVwPrt .sctnTtle {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 56px;
+  color: #31456a;
+  margin-bottom: 65px;
+}
+
+.careerVwPrt .emplFbdCard {
+  max-width: 935px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.careerVwPrt .emplFbdCard .imgContainer img {
+  width: 200px;
+  height: 200px;
+  border: 3px solid #31456a;
+  border-radius: 300px;
+}
+
+.careerVwPrt .emplFbdCard .txtContainer {
+  text-align: left;
+}
+
+.careerVwPrt .emplFbdCard .txtContainer h4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 56px;
+  color: var(--primColor);
+}
+
+.careerVwPrt .emplFbdCard .txtContainer p {
+  color: var(--primColor);
+}
+
+.careerVwPrt .emplFbdCard .txtContainer .empDesc {
+  font-size: 18px;
+}
+
+.careerVwPrt .cstmPagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  padding-left: 0;
+  margin-top: 35px;
+}
+
+.careerVwPrt .cstmPagination li {
+  margin: 0 10px;
+}
+
+.careerVwPrt .cstmPagination li.active {
+  color: black;
+}
+
+.careerVwPrt .cstmPagination li .prevArrow {
+  width: 25px;
+  height: 25px;
+  border: 1px solid var(--primColor);
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.careerVwPrt .cstmPagination li .prevArrow .MuiSvgIcon-root {
+  font-size: 14px;
+}
+
+.careerVwPrt .crrVwDtls {
+  margin-top: 70px;
+}
+
+.careerVwPrt .crrVwDtls h4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 57px;
+  color: #31456a;
+}
+
+.careerVwPrt .crrVwDtls .jbInfo p {
+  font-size: 16px;
+  color: var(--primColor);
+}
+
+.careerVwPrt .crrVwDtls .jbDscContainer .lftDescContainer h5 {
+  color: var(--primColor);
+  font-weight: 600;
+  font-size: 24px;
+  margin-top: 65px;
+  margin-bottom: 20px;
+}
+
+.careerVwPrt .crrVwDtls .jbDscContainer .lftDescContainer p,
+.careerVwPrt .crrVwDtls .jbDscContainer .lftDescContainer ul {
+  color: var(--primColor);
+  font-size: 17px;
+}
+
+.careerVwPrt .crrVwDtls .jbDscContainer .rtContainer {
+  min-width: 280px;
+  border-left: 1px solid rgba(49, 69, 106, 0.6);
+  margin-left: 25px;
+  padding-left: 25px;
+}
+
+.careerVwPrt .crrVwDtls .jbDscContainer .rtContainer h4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #31456a;
+  margin-bottom: 30px;
+}
+
+.careerVwPrt .crrVwDtls .jbDscContainer .rtContainer ul li {
+  list-style: none;
+  position: relative;
+  color: var(--primColor);
+}
+
+.careerVwPrt .crrVwDtls .jbDscContainer .rtContainer ul li::before {
+  font-family: "Material Icons";
+  content: "east";
+  font-size: 16px;
+  position: absolute;
+  left: -34px;
+  top: -2px;
+}
+
+.careerVwPrt .crrVwDtls .jbDscContainer .rtContainer ul li h6 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.careerVwPrt .crrVwDtls .jbDscContainer .lftDescContainer {
+  width: 100%;
+}
+
+@media (max-width: 700px) {
+  .careerVwPrt h1 {
+    text-align: center !important;
+    margin-bottom: 15px;
+  }
+
+  .careerVwPrt .blgBgWrpr h2 {
+    font-size: 32px;
+    line-height: 45px;
+  }
+
+  .careerVwPrt .blgBgWrpr .lftWrpr {
+    padding-right: 0;
+  }
+
+  .careerVwPrt .opnPstnr .pstStats {
+    flex-wrap: wrap;
+  }
+
+  .careerVwPrt .fltrWrpr {
+    flex-wrap: wrap;
+  }
+
+  .careerVwPrt .fltrWrpr .slctCntnr:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .careerVwPrt .fltrWrpr .slctCntnr {
+    margin-bottom: 15px;
+  }
+
+  .careerVwPrt .careerCard .btnStack {
+    flex-wrap: wrap;
+  }
+
+  .careerVwPrt .emplFbdCard {
+    flex-wrap: wrap;
+  }
+
+  .careerVwPrt .imgContainer {
+    margin: auto;
+  }
+
+  .careerVwPrt .emplFbdCard .txtContainer {
+    text-align: center;
+    padding-left: 0 !important;
+    padding-top: 15px;
+  }
+
+  .careerVwPrt .careerCard .secButton {
+    margin-bottom: 15px;
+  }
+
+  .careerVwPrt .crrVwDtls .jbDscContainer {
+    flex-wrap: wrap;
+  }
+
+  .careerVwPrt .crrVwDtls .jbDscContainer .rtContainer {
+    margin-left: 0;
+    margin-top: 25px;
+    border-left: 0;
+    border-top: 2px solid rgba(49, 69, 106, 0.6);
+    padding-top: 25px;
+  }
+
+  .careerVwPrt {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
+  .scdlDmoWrpr.sbRsmWrpr .imgContainer {
+    transform: translateX(29px) !important;
+  }
+}
