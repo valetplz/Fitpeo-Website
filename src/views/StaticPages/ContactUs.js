@@ -26,8 +26,8 @@ const ContactUs = () => {
   const [loading, setLoading] = useState(false)
 
   const validationArray = Yup.object({
-    first_name: Yup.string().min(2, "Too Short!").required("Required"),
-    last_name: Yup.string().min(2, "Too Short!").required("Required"),
+    first_name: Yup.string().min(2, "Too Short!").required("Required").matches(/^[aA-zZ\s]+$/, "Only alphabets are allowed for this field "),
+    last_name: Yup.string().min(2, "Too Short!").required("Required").matches(/^[aA-zZ\s]+$/, "Only alphabets are allowed for this field "),
     phoneNumber: Yup.string().required("Required"),
     email: Yup.string().email("Invalid email").required("Required"),
     message: Yup.string().required("Required"),

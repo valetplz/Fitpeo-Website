@@ -31,15 +31,15 @@ const MedicalKit = () => {
         <div className='multiImgContainer d-flex align-items-center justify-content-center'>
           <div className='lftImgContainer text-right pr-5'>
             <div className='infoIconContnr d-flex align-items-center justify-content-end'>
-              <p className='m-0'>Fipeo Oximeter</p>
+              <p className='m-0'>Fitpeo Oximeter</p>
               <img src='/assets/oximeter.svg' alt="oximeter"/>
             </div>
             <div className='infoIconContnr d-flex align-items-center justify-content-end mr-5 my-5'>
-              <p className='m-0'>Fipeo Pulse Rate</p>
+              <p className='m-0'>Fitpeo Pulse Rate</p>
               <img src='/assets/pulserate.svg' alt="pulse rate"/>
             </div>
             <div className='infoIconContnr d-flex align-items-center justify-content-end'>
-              <p className='m-0'>Fipeo Blood Pressure</p>
+              <p className='m-0'>Fitpeo Blood Pressure</p>
               <img src='/assets/bloodpressure.svg' alt="blood pressure"/>
             </div>
           </div>
@@ -49,15 +49,15 @@ const MedicalKit = () => {
           <div className='rtImgContainer pl-5'>
             <div className='infoIconContnr d-flex align-items-center'>
               <img src='/assets/ecg.svg' alt="ecg"/>
-              <p className='m-0'>Fipeo ECG</p>
+              <p className='m-0'>Fitpeo ECG</p>
             </div>
             <div className='infoIconContnr d-flex align-items-center ml-5 my-5'>
               <img src='/assets/weightmachine.svg' alt="weight machine"/>
-              <p className='m-0'>Fipeo Weight Machine</p>
+              <p className='m-0'>Fitpeo Weight Machine</p>
             </div>
             <div className='infoIconContnr d-flex align-items-center'>
               <img src='/assets/activity.svg' alt="activity"/>
-              <p className='m-0'>Fipeo Activityc</p>
+              <p className='m-0'>Fitpeo Activityc</p>
             </div>
           </div>
         </div>
@@ -67,7 +67,7 @@ const MedicalKit = () => {
             Eliminating the worry, confusion, and frustration of long waits and
             endless automated phone systems. Now your whole family can go back
             to sleep knowing you got top-level care without ever having to
-            worry..
+            worry.
           </p>
         </div>
         <div className='medivdoWrpr d-flex align-items-start'>

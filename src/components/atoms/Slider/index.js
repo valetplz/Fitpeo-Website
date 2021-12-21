@@ -60,7 +60,7 @@ const PrettoSlider = withStyles({
   },
 })(Slider)
 
-export default function CustomizedSlider() {
+export default function CustomizedSlider(props) {
   const classes = useStyles()
 
   return (
@@ -71,6 +71,7 @@ export default function CustomizedSlider() {
         defaultValue={200}
         min={0}
         max={2000}
+        onChange={(__, value) => props.onChange && props.onChange(value)}
       />
     </div>
   )

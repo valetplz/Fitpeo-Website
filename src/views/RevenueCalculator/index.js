@@ -17,6 +17,9 @@ const RevenueCalculator = () => {
   }, []);
 
   const billingData = useSelector((state) => state.user.billingDetails);
+  const [selectedBills, setSelectedBills] = useState([])
+  const [totalrevenue, setRevenue] = useState(0)
+  const [range, setRange] = useState(200)
 
   useEffect(() => {
     window.addEventListener("scroll", listenScrollEvent);
@@ -30,6 +33,18 @@ const RevenueCalculator = () => {
       setScrollCls("");
     }
   };
+
+  const handleBills = (values) => {
+    let ind = selectedBills.indexOf(values)
+    if (ind > -1) {
+      setRevenue(totalrevenue - values.cost)
+      selectedBills.splice(ind, 1)
+    } else {
+      setRevenue(totalrevenue + values.cost)
+      selectedBills.push(values)
+    }
+    setSelectedBills(selectedBills)
+  }
 
   return (
     <Layout>
@@ -50,15 +65,17 @@ const RevenueCalculator = () => {
                 RPM and CCM Programs - CPT code reimbursement (Non-Facility
                 Rates) NOTE: These Numbers Vary State to State
               </p>
-              <CustomSlider />
+              <CustomSlider onChange={setRange} />
             </div>
             <div className="cptCodes">
               <label htmlFor="">Selected CPT Codes</label>
-              <div className="slctTags mt-3">
-                <div className="tagCard">
-                  CPT99902
-                  <HighlightOffIcon className="ml-2" />
-                </div>
+              <div className="slctTags mt-3 row">
+                {selectedBills && selectedBills.length > 0 && selectedBills.map(data => (
+                  <div className="tagCard">
+                    CPT-{data.cptCode}
+                    <HighlightOffIcon className="ml-2" onClick={() => handleBills(data)} />
+                  </div>
+                ))}
               </div>
             </div>
           </div>
@@ -67,20 +84,20 @@ const RevenueCalculator = () => {
               <label htmlFor="">
                 Total Gross Revenue <br /> Per Year
               </label>
-              <h2>$ 30,000</h2>
+              <h2>${totalrevenue * range * 12}</h2>
             </div>
             <div className="rvnDtLst">
               <div className="lstTg">
                 <label className="m-0">One Time Annual Total</label>
-                <h3>$24</h3>
+                <h3>${totalrevenue * 12}</h3>
               </div>
               <div className="lstTg">
                 <label className="m-0">Total Individual Patient/Month</label>
-                <h3>189</h3>
+                <h3>{range}</h3>
               </div>
               <div className="lstTg">
                 <label className="m-0">Total Dollars Per Month</label>
-                <h3>$94,500</h3>
+                <h3>${totalrevenue * range}</h3>
               </div>
             </div>
           </div>
@@ -118,8 +135,7 @@ const RevenueCalculator = () => {
           </div>
         </div>
         <div className="cptDtlsCdsWrpr text-left">
-          {console.log("billingData", billingData)}
-          {billingData.length !== 0 &&
+          {billingData && billingData.length !== 0 &&
             billingData.map((values) => (
               <div className="cptCodesCard" key={values.resourceId}>
                 <h2>CPT-{values.cptCode}</h2>
@@ -134,7 +150,7 @@ const RevenueCalculator = () => {
                   </p>
                 </div>
                 <p className="dscrptn">{values.description}</p>
-                <CustomCheckBox label={values.cost} size="big" />
+                <CustomCheckBox checked={selectedBills.indexOf(values) > -1} label={values.cost} size="big" onChange={() => handleBills(values)} />
               </div>
             ))}
         </div>

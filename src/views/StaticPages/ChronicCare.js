@@ -2,8 +2,11 @@ import React from "react"
 import "./Static.css"
 import { Link } from "react-router-dom"
 import Layout from "../../components/templates/Layout"
+import { useHistory } from "react-router-dom";
 
 const ChronicCare = () => {
+  const history = useHistory();
+
   return (
     <Layout>
       <div className='staticWrapper chronicPgWrpr'>
@@ -139,7 +142,7 @@ const ChronicCare = () => {
           <p>
             Communicate effectively with patients, re-fill prescriptions, review
             diagnostics and make referrals, then log time spent via the Fitpeo’s
-            solituin platform to keep an accurate record of billable effort.
+            solution platform to keep an accurate record of billable effort.
           </p>
         </div>
         <div className='ptsWrpr mt-5'>
@@ -182,7 +185,7 @@ const ChronicCare = () => {
             </p>
           </div>
           <div className='col-md-4 col-12 d-flex btnContainer'>
-            <button className='btn gradButton'>See it in Action</button>
+            <button className='btn gradButton' onClick={() => history.push("/schedule_demo")}>See it in Action</button>
           </div>
         </div>
 

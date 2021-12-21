@@ -151,7 +151,7 @@ const Providers = () => {
             </div>
             <div className="enrlPrvdrsCntnr pt-3" id="enrolled">
               <h2 className="text-left cstmHdr mb-4">
-                Who are all enrolled in our plateform
+                Who are all enrolled in our platform
               </h2>
               <EnrolledProviders />
             </div>
@@ -186,9 +186,9 @@ const Providers = () => {
                       <p>
                         FITPEO offers constant monitoring and engagement of
                         patients by levaraging a toolset that is convenient to
-                        use. This helps in driving a postive patient response
+                        use. This helps in driving positive patient response
                         allowing for timely medical intervention useful in
-                        chronic & acute diseease management.
+                        chronic & acute diseses management.
                       </p>
                     </div>
                   </div>

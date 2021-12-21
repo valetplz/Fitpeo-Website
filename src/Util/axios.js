@@ -3,7 +3,7 @@ const axios = require('axios');
 let data = ''
 let accessToken = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTYyOTYxMTU1MiwianRpIjoiMDY4N2E2ZjUtMDhlZS00YmI3LTk1NTgtOGUzMzViYWI4YmU4IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6NTY0MTMxMTY4NDEzMjg2NCwibmJmIjoxNjI5NjExNTUyfQ.bzCz3Jt1wYWPfAAVRza_56AjnKB9xff1IaFXgng5SeM'
 
-// axios.defaults.baseURL = process.env.REACT_APP_DOMAIN
+axios.defaults.baseURL = process.env.REACT_APP_DOMAIN
 // if(getCookie("__user") && getCookie("__user") !=="")
 if(localStorage.getItem('state') && localStorage.getItem('state') !== ""){
     data = JSON.parse(localStorage.getItem('state'))

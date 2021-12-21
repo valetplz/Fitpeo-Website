@@ -27,8 +27,8 @@ const ScheduleDemo = () => {
 
   const validationArray = Yup.object({
     // userName: Yup.string().required("Required"),
-    first_name: Yup.string().min(2, "Too Short!").required("Required"),
-    last_name: Yup.string().required("Required"),
+    first_name: Yup.string().min(2, "Too Short!").required("Required").matches(/^[aA-zZ\s]+$/, "Only alphabets are allowed for this field "),
+    last_name: Yup.string().required("Required").matches(/^[aA-zZ\s]+$/, "Only alphabets are allowed for this field "),
     phoneNumber: Yup.string().required("Required"),
     email: Yup.string().email("Invalid email").required("Required"),
     demoDate: Yup.string().required("Required"),
@@ -63,7 +63,6 @@ const ScheduleDemo = () => {
       user.scheduleDemoResponse &&
       user.scheduleDemoResponse.success === true
     ) {
-      console.log("entered if condition");
       enqueueSnackbar({
         message: "Form Submitted succesfully!",
         options: {
@@ -155,14 +154,13 @@ const ScheduleDemo = () => {
                     />
                   </div>
                   <div className="col-md-6 col-xs-12">
-                    {console.log("current date", moment().format("YYYY-MM-DD"))}
                     <TextInput
                       name="demoDate"
                       value={formik.values.demoDate}
                       formik={formik.handleChange}
                       error={formik}
                       type="datetime-local"
-                      min={moment().format("YYYY-MM-DD")}
+                      min={moment().format("YYYY-MM-DDThh:mm")}
                       placeholder=""
                       label="Select Your Demo Date"
                       icon={<img src="/assets/dateicon.svg" alt="date" />}
